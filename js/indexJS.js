@@ -5,4 +5,5 @@ $(document).ready(function () {
     $("#a_btn").button(function (event) {
         alert(event);
     });
+    $("#dragg").button();
 });
