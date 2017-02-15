@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf8d928-bbe5-43b7-ad45-db49b558db47" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DropIndex.html" afterPath="$PROJECT_DIR$/DropIndex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/DropIndexJS.js" afterPath="$PROJECT_DIR$/js/DropIndexJS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexJS.js" afterPath="$PROJECT_DIR$/js/indexJS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ResizableIndex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/Resizable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Resizable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,24 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DropIndexJS.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/DropIndexJS.js">
+      <file leaf-file-name="ResizableIndex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ResizableIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#50#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DropIndex.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DropIndex.html">
+      <file leaf-file-name="Resizable.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/Resizable.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resizable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/Resizable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +84,9 @@
         <option value="$PROJECT_DIR$/js/indexJS.js" />
         <option value="$PROJECT_DIR$/DropIndex.html" />
         <option value="$PROJECT_DIR$/js/DropIndexJS.js" />
+        <option value="$PROJECT_DIR$/ResizableIndex.html" />
+        <option value="$PROJECT_DIR$/css/Resizable.css" />
+        <option value="$PROJECT_DIR$/js/Resizable.js" />
       </list>
     </option>
   </component>
@@ -262,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487119991292</updated>
       <workItem from="1487119992760" duration="4241000" />
-      <workItem from="1487125996888" duration="3931000" />
+      <workItem from="1487125996888" duration="4546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8172000" />
+    <option name="totallyTimeSpent" value="8787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -380,14 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DraggableIndex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -399,15 +404,49 @@
     <entry file="file://$PROJECT_DIR$/DropIndex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/DropIndexJS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Resizable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResizableIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Resizable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>
