@@ -7,4 +7,5 @@ $(document).ready(function () {
     });
     $("#dragg").button();
     $("#dropp").button();
+    $("#resiza").button();
 });
