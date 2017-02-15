@@ -3,3 +3,21 @@
     height: 100px;
     background-color: lightskyblue;
 }
+
+#js_div{
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
+.js_east{
+    cursor: e-resize;
+}
+.js_sourth{
+    cursor: s-resize;
+}
+.js_se{
+    cursor: se-resize;
+}
+.js_none{
+    cursor: default;
+}
