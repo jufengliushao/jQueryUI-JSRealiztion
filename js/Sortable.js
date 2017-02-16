@@ -18,6 +18,11 @@ $(document).ready(function () {
             console.log(ui);
             console.log("------start-------");
         },
+        placeholder: "ui-state-highlight",
+        connectWith: "ul"
+    });
+    $("#dog").sortable({
+        connectWith: "ul",
         placeholder: "ui-state-highlight"
     });
 });

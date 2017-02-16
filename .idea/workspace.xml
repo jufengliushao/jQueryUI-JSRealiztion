@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf8d928-bbe5-43b7-ad45-db49b558db47" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sortable.html" afterPath="$PROJECT_DIR$/Sortable.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Sortable.css" afterPath="$PROJECT_DIR$/css/Sortable.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Sortable.js" afterPath="$PROJECT_DIR$/js/Sortable.js" />
     </list>
@@ -24,28 +26,28 @@
       <file leaf-file-name="Sortable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sortable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sortable.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sortable.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Sortable.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sortable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sortable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Sortable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -89,8 +91,8 @@
         <option value="$PROJECT_DIR$/SelectableIndex.html" />
         <option value="$PROJECT_DIR$/js/Select.js" />
         <option value="$PROJECT_DIR$/Sortable.html" />
-        <option value="$PROJECT_DIR$/js/Sortable.js" />
         <option value="$PROJECT_DIR$/css/Sortable.css" />
+        <option value="$PROJECT_DIR$/js/Sortable.js" />
       </list>
     </option>
   </component>
@@ -293,12 +295,12 @@
       <option name="presentableId" value="Default" />
       <updated>1487119991292</updated>
       <workItem from="1487119992760" duration="4241000" />
-      <workItem from="1487125996888" duration="9901000" />
+      <workItem from="1487125996888" duration="10628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14142000" />
+    <option name="totallyTimeSpent" value="14869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -523,27 +525,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sortable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Sortable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Sortable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Sortable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
