@@ -2,7 +2,7 @@
  * Created by cnlive-lsf-doc on 2017/2/16.
  */
 $(document).ready(function () {
-    $("#friut").sortable({
+    $("#friut, #empty, #dog").sortable({
         stop: function (event, ui) {
             console.log("------stop-------");
             console.log(ui);
@@ -20,9 +20,5 @@ $(document).ready(function () {
         },
         placeholder: "ui-state-highlight",
         connectWith: "ul"
-    });
-    $("#dog").sortable({
-        connectWith: "ul",
-        placeholder: "ui-state-highlight"
     });
 });
