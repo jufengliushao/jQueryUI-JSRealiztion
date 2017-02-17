@@ -1,3 +1,15 @@
 #input p{
     float: left;
 }
+
+.ulJS{
+    list-style-type: none;
+    width: 100px;
+    height: auto;
+    background-color: lightgray;
+    text-align: center;
+}
+.ulJS li{
+    width: 100%;
+    background-color: skyblue;
+}
