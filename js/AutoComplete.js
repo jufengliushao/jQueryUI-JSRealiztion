@@ -74,8 +74,8 @@ function judgemntExist(strID) {
 /* 删除该节点下的所有子节点 */
 function removeNodeAllChild(uls) {
     if(uls.childNodes.length == 0) return;
-    for(index in uls.childNodes){
-        uls.removeChild(uls.childNodes[0]);
+    while(uls.hasChildNodes()){
+        uls.removeChild(uls.firstChild);
     }
 }
 
