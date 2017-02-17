@@ -40,6 +40,7 @@ function createUl() {
         var uls = document.createElement("ul");
         uls.id = "ulmain";
         uls.className = "ulJS";
+        uls.style.marginLeft = "70px";
         return uls;
     }
     removeNodeAllChild(getElementID("ulmain"));
@@ -51,8 +52,14 @@ function addLi(uls, resultArr) {
     for(index in resultArr){
         var lis = document.createElement("li");
         lis.innerHTML = resultArr[index];
+        lis.addEventListener("click", clickLI);
         uls.appendChild(lis);
     }
+}
+
+function clickLI(event) {
+    getElementID("input_js").value = this.innerHTML;
+    removeNodeAllChild(getElementID("ulmain"));
 }
 
 /* 判断当前id是否在页面元素中 */
