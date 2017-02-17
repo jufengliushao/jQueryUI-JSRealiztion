@@ -8,6 +8,8 @@
     height: auto;
     background-color: lightgray;
     text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 .ulJS li{
     width: 100%;

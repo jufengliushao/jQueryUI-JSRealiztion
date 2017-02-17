@@ -58,7 +58,7 @@ function addLi(uls, resultArr) {
 /* 判断当前id是否在页面元素中 */
 function judgemntExist(strID) {
     var uls = getElementID(strID);
-    if(typeof (uls) == null || typeof (uls) == undefined){
+    if(uls){
         return false;
     }
     return true;
@@ -66,12 +66,18 @@ function judgemntExist(strID) {
 
 /* 删除该节点下的所有子节点 */
 function removeNodeAllChild(uls) {
-    for(var i = 0; i < uls.childNodes.length; i ++){
-        uls.removeChild(uls.childNodes[i]);
+    if(uls.childNodes.length == 0) return;
+    for(index in uls.childNodes){
+        uls.removeChild(uls.childNodes[0]);
     }
 }
 
 /* 根据id获取元素 */
 function getElementID(idStr) {
     return document.getElementById(idStr);
+}
+
+/* 打印 */
+function print(something) {
+    console.log(something);
 }
