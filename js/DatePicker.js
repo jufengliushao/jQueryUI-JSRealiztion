@@ -9,7 +9,8 @@ $(document).ready(function () {
         selectOtherMonth: showMonthBool,
         showButtonPanel: true,
         changeMonth: showChangeBool,
-        changeYear: showChangeBool
+        changeYear: showChangeBool,
+        numberOfMonths: 3
     });
     $("#showMonth, #change").button({
     });
