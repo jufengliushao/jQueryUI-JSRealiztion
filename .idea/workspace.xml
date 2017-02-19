@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf8d928-bbe5-43b7-ad45-db49b558db47" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dailog.html" afterPath="$PROJECT_DIR$/Dailog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Dailog.js" afterPath="$PROJECT_DIR$/js/Dailog.js" />
     </list>
@@ -22,21 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dailog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dailog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dailog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dailog.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dailog.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Dailog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="318">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -94,8 +93,8 @@
         <option value="$PROJECT_DIR$/js/indexJS.js" />
         <option value="$PROJECT_DIR$/js/DatePicker.js" />
         <option value="$PROJECT_DIR$/DatePicker.html" />
-        <option value="$PROJECT_DIR$/js/Dailog.js" />
         <option value="$PROJECT_DIR$/Dailog.html" />
+        <option value="$PROJECT_DIR$/js/Dailog.js" />
       </list>
     </option>
   </component>
@@ -287,12 +286,12 @@
       <workItem from="1487125996888" duration="12507000" />
       <workItem from="1487295742357" duration="7579000" />
       <workItem from="1487393301951" duration="3772000" />
-      <workItem from="1487513679887" duration="1318000" />
+      <workItem from="1487513679887" duration="1769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29417000" />
+    <option name="totallyTimeSpent" value="29868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -637,21 +636,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Dailog.js">
+    <entry file="file://$PROJECT_DIR$/Dailog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dailog.html">
+    <entry file="file://$PROJECT_DIR$/js/Dailog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="318">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
