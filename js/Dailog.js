@@ -3,7 +3,8 @@
  */
 $(document).ready(function () {
     $("#showDig").button().on("click", showDailog);
-    $("#dailog_div").dialog({
+    $("#dialog_model").button().on("click", showDialogModel);
+    $("#dailog_div, #dialog_div_model").dialog({
         autoOpen: false,
         show: {
             effect: "blind",
@@ -18,4 +19,11 @@ $(document).ready(function () {
 
 function showDailog() {
     $("#dailog_div").dialog("open");
+}
+
+function showDialogModel() {
+    $("#dialog_div_model").dialog({
+        modal: true
+    });
+    $("#dialog_div_model").dialog("open");
 }
