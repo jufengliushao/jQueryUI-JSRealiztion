@@ -7,6 +7,7 @@
     <script src="jQuery/jquery-ui.min.js"></script>
     <script src="js/Dailog.js"></script>
     <link type="text/css" rel="stylesheet" href="jQuery/jquery-ui.min.css">
+    <link type="text/css" href="css/Dialog.css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,5 +23,32 @@
         <p>这是一个带有button的dialog-modal</p>
     </div>
     <button id="dialog_button">dialog-button</button>
+    <br><br>
+
+    <div id="dialog_input_div">
+        <p class="tips">所有字段都必须填写</p>
+        <fieldset>
+            <label for="name" class="title">名字：</label>
+            <input id="name" type="text" placeholder="" class="text ui-input">
+            <label for="e-mail" class="title">邮箱：</label>
+            <input id="e-mail" type="text" placeholder="" class="text ui-input">
+            <label for="password" class="title">密码：</label>
+            <input id="password" type="text" placeholder="" class="text ui-input">
+        </fieldset>
+    </div>
+
+    <div id="table_div">
+        <h3>已有用户</h3>
+        <table id="table" frame="box">
+            <thead>
+                <tr class="thread-table">
+                    <th>用户名</th>
+                    <th>邮箱</th>
+                    <th>密码</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <button id="table-button">添加用户</button>
 </body>
 </html>

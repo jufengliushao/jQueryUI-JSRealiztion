@@ -1,0 +1,38 @@
+.thread-table{
+    background-color: darkgray;
+    color: white;
+    text-align: left;
+}
+.thread-table th{
+    width: 100px;
+}
+#table{
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 14px;
+    color: lightgray;
+}
+.ui-input{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    /*margin-top: 10px;*/
+}
+fieldset{
+    border: 0px;
+    margin: 0px;
+}
+.tips{
+    font-size: 13px;
+    color: black;
+    text-align: center;
+}
+.tips:hover{
+    color: white;
+    background-color: red;
+}
