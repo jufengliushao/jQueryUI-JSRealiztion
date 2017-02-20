@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf8d928-bbe5-43b7-ad45-db49b558db47" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dailog.html" afterPath="$PROJECT_DIR$/Dailog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/Dialog.css" afterPath="$PROJECT_DIR$/css/Dialog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Dailog.js" afterPath="$PROJECT_DIR$/js/Dailog.js" />
     </list>
@@ -26,27 +25,27 @@
         <entry file="file://$PROJECT_DIR$/Dailog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dialog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/Dialog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="327">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dailog.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dailog.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Dailog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="393">
+              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -107,8 +106,8 @@
         <option value="$PROJECT_DIR$/js/DatePicker.js" />
         <option value="$PROJECT_DIR$/DatePicker.html" />
         <option value="$PROJECT_DIR$/Dailog.html" />
-        <option value="$PROJECT_DIR$/js/Dailog.js" />
         <option value="$PROJECT_DIR$/css/Dialog.css" />
+        <option value="$PROJECT_DIR$/js/Dailog.js" />
       </list>
     </option>
   </component>
@@ -301,12 +300,12 @@
       <workItem from="1487295742357" duration="7579000" />
       <workItem from="1487393301951" duration="3772000" />
       <workItem from="1487513679887" duration="1318000" />
-      <workItem from="1487552406188" duration="6197000" />
+      <workItem from="1487552406188" duration="6784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35753000" />
+    <option name="totallyTimeSpent" value="36340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -701,16 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Dailog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/jquery-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -722,16 +711,26 @@
     <entry file="file://$PROJECT_DIR$/Dailog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/Dialog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="327">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Dailog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

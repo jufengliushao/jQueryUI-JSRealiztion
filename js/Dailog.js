@@ -78,7 +78,8 @@ function createUser() {
 function checkLength(target, min, max) {
     if(target.value.length < min || target.value.length > max){
         $(".tips").html(target.title + "长度必须在" + min.toString() + "~" + max.toString() + "之间！");
-        target.addClass("ui-state-error");
+        // target.className = "ui-state-error";
+        addClasses(target, "ui-state-error");
         return false;
     }
     $(".tips").html("");
@@ -98,6 +99,12 @@ function createTr() {
 
 function cancelCreateUser() {
     $("#dialog_input_div").dialog("close");
+}
+
+function addClasses(elm, classN) {
+    var classStr = elm.className;
+    elm.className = classStr + " " + classN;
+    // console.log(classStr + " " + classN);
 }
 
 function returnElementByID(varID) {
