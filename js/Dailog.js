@@ -67,22 +67,37 @@ function addUserDialog() {
 function createUser() {
     var status = true;
     status = status && checkLength(document.getElementById("name"), 3, 10);
-    status = status && checkLength(document.getElementById("e-mail"), 2, 10);
+    status = status && checkLength(document.getElementById("e-mail"), 2, 30);
     status = status && checkLength(document.getElementById("password"), 6, 12);
-
+    if(status){
+        createTr();
+        cancelCreateUser();
+    }
 }
 
 function checkLength(target, min, max) {
     if(target.value.length < min || target.value.length > max){
         $(".tips").html(target.title + "长度必须在" + min.toString() + "~" + max.toString() + "之间！");
+        target.addClass("ui-state-error");
         return false;
     }
     $(".tips").html("");
     return true;
 }
 
+function createTr() {
+    $("#table tbody").append("<tr>"+"<td>"+document.getElementById("name").value
+        +
+        "<td>"+document.getElementById("e-mail").value+"</td>"
+        +
+        "<td>"+document.getElementById("password").value+"</td>"
+        +
+        "</tr>"
+    )
+}
+
 function cancelCreateUser() {
-    $(this).dialog("close");
+    $("#dialog_input_div").dialog("close");
 }
 
 function returnElementByID(varID) {
