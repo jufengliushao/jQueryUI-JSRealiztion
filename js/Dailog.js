@@ -1,10 +1,15 @@
 /**
  * Created by cnlive-lsf-doc on 2017/2/19.
  */
+var namea = document.getElementById("name");
+var password = returnElementByID("password");
+var eMail = returnElementByID("e-mail");
+var tips = returnElementByClass("tips");
+
 $(document).ready(function () {
     $("#showDig").button().on("click", showDailog);
     $("#dialog_model").button().on("click", showDialogModel);
-    $("#dialog_button").button().on("click", showDialogButton);
+    $("#dialog_buttaon").button().on("click", showDialogButton);
     $("#table-button").button().on("click", addUserDialog);
     $("#dailog_div, #dialog_div_model, #dialog_div_button").dialog({
         autoOpen: false,
@@ -60,9 +65,30 @@ function addUserDialog() {
 }
 
 function createUser() {
-    
+    var status = true;
+    status = status && checkLength(document.getElementById("name"), 3, 10);
+    status = status && checkLength(document.getElementById("e-mail"), 2, 10);
+    status = status && checkLength(document.getElementById("password"), 6, 12);
+
+}
+
+function checkLength(target, min, max) {
+    if(target.value.length < min || target.value.length > max){
+        $(".tips").html(target.title + "长度必须在" + min.toString() + "~" + max.toString() + "之间！");
+        return false;
+    }
+    $(".tips").html("");
+    return true;
 }
 
 function cancelCreateUser() {
     $(this).dialog("close");
+}
+
+function returnElementByID(varID) {
+    return document.getElementById(varID);
+}
+
+function returnElementByClass(varClass) {
+    return $("."+varClass);
 }
