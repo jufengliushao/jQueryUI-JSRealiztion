@@ -4,3 +4,13 @@
     margin-top: 50px;
     margin-left: 30px;
 }
+.progress-label {
+    position: absolute;
+    left: 130px;
+    top: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+#btn{
+    margin-top: 20px;
+}
