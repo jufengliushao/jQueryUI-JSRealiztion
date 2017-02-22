@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    background-color: lightgray;
+    width: 80px;
+    height: auto;
+    text-align: center;
+    padding: 0px;
+}
+#main_menu li{
+    margin: 0px;
+    width: 100%;
+}
+#main_menu li:hover{
+    background-color: #dddddd;
+    border: 1px solid #cccccc;
+}
