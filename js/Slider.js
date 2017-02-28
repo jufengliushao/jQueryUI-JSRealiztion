@@ -12,6 +12,16 @@ $(document).ready(function () {
         max: 255,
         range: "min"
     });
+    $("#voice-div>span").each(function () {
+        var valuew = parseInt($(this).text(), 10);
+        $(this).empty().slider({
+            value: valuew,
+            orientation:"vertical",
+            animate: true,
+            max: 100,
+            range: "min"
+        });
+    });
 });
 
 function valueChanged(event, ui) {
