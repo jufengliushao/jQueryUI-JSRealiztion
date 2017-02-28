@@ -2,3 +2,50 @@
     width: 35%;
     margin: 10px 15px;
 }
+.color-slder{
+    width: 80%;
+    margin: 20px 20px;
+}
+
+#red-color-slider .ui-corner-all{
+    background:  white;
+}
+
+#red-color-slider .ui-slider-range{
+    background: red;
+}
+
+#red-color-slider .ui-slider-handle{
+    border-color: #ef2929;
+}
+
+#green-color-slider .ui-slider-range{
+    background: greenyellow;
+}
+
+#green-color-slider .ui-slider-handle{
+    border-color: greenyellow;
+}
+
+#blue-color-slider .ui-slider-range{
+    background: deepskyblue;
+}
+
+#blue-color-slider .ui-slider-handle{
+    border-color: deepskyblue;
+}
+
+#color-showView{
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    float: left;
+}
+
+#color-slider-div{
+    width: 30%;
+    float: left;
+}
+.color-slider-div-class{
+
+}
