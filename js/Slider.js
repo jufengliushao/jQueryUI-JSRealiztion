@@ -22,6 +22,11 @@ $(document).ready(function () {
             range: "min"
         });
     });
+    $("#range-slider").slider({
+        range: true,
+        values: [30, 100],
+        max: 200
+    });
 });
 
 function valueChanged(event, ui) {
