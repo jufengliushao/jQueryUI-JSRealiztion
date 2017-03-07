@@ -83,3 +83,22 @@ function stringAction() {
     console.log("substr: " + strObj.substr(2, 7));
     console.log("sybstring: " + strObj.substring(2, 7));
 }
+
+function math() {
+    var values = [3,45,43,99,1,0];
+    console.log(Math.max.apply(Math, values));
+    console.log(Math.min.apply(Math, values));
+    console.log(Math.ceil(29.6));
+    console.log(Math.floor(29.6));
+    console.log(Math.round(29.6));
+}
+
+function random(min, max) {
+    var count = (max > min) ? (max - min + 1) : (min - max + 1);
+    var minValue = (max > min) ? min : max;
+    return Math.floor(Math.random() * count + minValue);
+}
+
+function getRandom() {
+    console.log(random(3, 3));
+}
