@@ -102,3 +102,28 @@ function random(min, max) {
 function getRandom() {
     console.log(random(3, 3));
 }
+
+function createObj() {
+    var shopping = {
+        name: "大润发",
+        address: "泗泾",
+        sayInfo: function() {
+            console.log("name: " + this.name);
+            console.log("address: " + this.address);
+        }
+    };
+    shopping.sayInfo();
+}
+
+function pere(ag) {
+    var per = {
+        age: 0
+    };
+    per.prototype.setAge
+    // console.log(per.age);
+    return per;
+}
+
+function checkObj() {
+    console.log(pere(1).age);
+}
