@@ -103,15 +103,25 @@ function getRandom() {
     console.log(random(3, 3));
 }
 
+var shopping = {
+    _name: "大润发",
+    address: "泗泾",
+    sayInfo: function() {
+        console.log("name: " + this.name);
+        console.log("address: " + this.address);
+    }
+};
+
+Object.defineProperty(shopping, "name", {
+    get: function () {
+        return "www";
+    },
+    set: function () {
+        this._name = "aaa";
+    }
+});
+
 function createObj() {
-    var shopping = {
-        name: "大润发",
-        address: "泗泾",
-        sayInfo: function() {
-            console.log("name: " + this.name);
-            console.log("address: " + this.address);
-        }
-    };
     shopping.sayInfo();
 }
 
@@ -125,5 +135,5 @@ function pere(ag) {
 }
 
 function checkObj() {
-    console.log(pere(1).age);
+    console.log(shopping.name);
 }
