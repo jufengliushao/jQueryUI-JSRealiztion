@@ -137,3 +137,10 @@ function pere(ag) {
 function checkObj() {
     console.log(shopping.name);
 }
+
+var home = {};
+Object.defineProperties(home, {
+   address: {
+       value: "jjjj"
+   }
+});
