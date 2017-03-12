@@ -135,7 +135,14 @@ function pere(ag) {
 }
 
 function checkObj() {
-    console.log(shopping.name);
+    var ljr = new Teacher("lujurong", 17, "famale");
+    console.log(ljr.name);
+}
+
+function Teacher(name, age, sex) {
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
 }
 
 var home = {};
