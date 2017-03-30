@@ -164,5 +164,18 @@ Student.prototype = {
 
 function createStu() {
     var stu1 = new Student();
-    console.log(stu1.constructor == Student);
+    console.log(Object.getOwnPropertyNames(Student.prototype));
 }
+
+function House(address, price, persons) {
+    this.address = address;
+    this.price = price;
+    this.persons = persons;
+}
+
+House.prototype = {
+    sayPersons: function () {
+        console.log(this.persons);
+    },
+    constructor: House
+};
