@@ -164,7 +164,11 @@ Student.prototype = {
 
 function createStu() {
     var stu1 = new Student();
-    console.log(Object.getOwnPropertyNames(Student.prototype));
+    var cat1 = new Cat("Tom", "n");
+    cat1.sayName();
+    cat1.sayName();
+    var cat2 = new Cat("Tim", "m");
+    cat2.sayName();
 }
 
 function House(address, price, persons) {
@@ -179,3 +183,14 @@ House.prototype = {
     },
     constructor: House
 };
+
+function Cat(name, gender) {
+    this.name = name;
+    this.gender = gender;
+    if(typeof this.syaName != "function"){
+        console.log("aaaa");
+        Cat.prototype.sayName = function () {
+            console.log(this.name);
+        };
+    }
+}
