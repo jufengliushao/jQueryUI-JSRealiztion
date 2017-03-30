@@ -151,3 +151,18 @@ Object.defineProperties(home, {
        value: "jjjj"
    }
 });
+
+function Student() {
+    
+}
+
+Student.prototype = {
+    // constructor: Student,
+    name: "aaa",
+    age: 12
+};
+
+function createStu() {
+    var stu1 = new Student();
+    console.log(stu1.constructor == Student);
+}
