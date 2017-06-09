@@ -164,11 +164,8 @@ Student.prototype = {
 
 function createStu() {
     var stu1 = new Student();
-    var cat1 = new Cat("Tom", "n");
-    cat1.sayName();
-    cat1.sayName();
-    var cat2 = new Cat("Tim", "m");
-    cat2.sayName();
+    var arr = new SpecialArr("a", "b", "c");
+    arr.printAll();
 }
 
 function House(address, price, persons) {
@@ -193,4 +190,13 @@ function Cat(name, gender) {
             console.log(this.name);
         };
     }
+}
+
+function SpecialArr() {
+    var values = new Array();
+    values.push.apply(values, arguments);
+    values.printAll = function () {
+        console.log(this.join("|"));
+    };
+    return values;
 }
